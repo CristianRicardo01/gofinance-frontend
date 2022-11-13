@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  color: white;
+width: 80vw;
+margin-left: 150px;
 `
