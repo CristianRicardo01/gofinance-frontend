@@ -5,7 +5,7 @@ export const Wrapper = styled.main`
     display: flex;
     flex-direction: column;
 `
-export const FiltersAndDataTabel = styled.div`
+export const FiltersAndDataTable = styled.div`
     ${({ theme }) => css`
         background ${theme.colors.white};
         padding: 15px;

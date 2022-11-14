@@ -29,15 +29,14 @@ const rows = [
 export default function ListAccounts() {
   return (
     <S.Wrapper>
-
       <S.Button>
-        <Button>
+        <Button isFilter>
           Adicionar
         </Button>
       </S.Button>
-      <S.FiltersAndDataTabel>
+      <S.FiltersAndDataTable>
         <S.Filters>
-          <Input label="Data Inicial" type="date" name="initialDate" isFilter={true} />
+          <Input label="Data Inicial" type="date" name="initialDate" isFilter />
           <S.Filters>
             <Input label="Data Final" type="date" name="finalDate" isFilter />
           </S.Filters>
@@ -80,7 +79,7 @@ export default function ListAccounts() {
             </TableBody>
           </Table>
         </TableContainer>
-      </S.FiltersAndDataTabel>
+      </S.FiltersAndDataTable>
     </S.Wrapper>
   )
 }
